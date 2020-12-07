@@ -36,7 +36,7 @@ namespace FakeMaxPlayers
             SetMaxPlayers(Configuration.Instance.CustomMaxPlayers);
         }
 
-        public void SetMaxPlayers(int amount)
+        public void SetMaxPlayers(byte amount)
         {
             try
             {

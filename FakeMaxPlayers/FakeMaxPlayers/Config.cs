@@ -9,7 +9,7 @@ namespace FakeMaxPlayers
 {
     public class Config : IRocketPluginConfiguration
     {
-        public int CustomMaxPlayers { get; set; }
+        public byte CustomMaxPlayers { get; set; }
 
         public void LoadDefaults()
         {
